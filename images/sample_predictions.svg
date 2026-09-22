@@ -1,0 +1,44 @@
+<svg width="900" height="420" viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="420" fill="#111827"/>
+  <text x="80" y="52" font-family="Arial, sans-serif" font-size="26" fill="#e2e8f0">Example Predictions</text>
+
+  <g transform="translate(80,80)">
+    <rect x="0" y="0" width="180" height="220" rx="16" fill="#1f2937" stroke="#374151"/>
+    <rect x="210" y="0" width="180" height="220" rx="16" fill="#1f2937" stroke="#374151"/>
+    <rect x="420" y="0" width="180" height="220" rx="16" fill="#1f2937" stroke="#374151"/>
+    <rect x="630" y="0" width="180" height="220" rx="16" fill="#1f2937" stroke="#374151"/>
+
+    <g>
+      <circle cx="90" cy="85" r="46" fill="#fbbf24" opacity="0.7"/>
+      <circle cx="90" cy="85" r="20" fill="#f59e0b" opacity="0.9"/>
+      <ellipse cx="90" cy="110" rx="60" ry="26" fill="#fcd34d" opacity="0.9"/>
+      <path d="M 60 90 C 70 70, 110 70, 120 90" stroke="#fef3c7" stroke-width="8" fill="none"/>
+      <text x="42" y="155" font-family="Arial, sans-serif" font-size="22" fill="#f8fafc">Daisy</text>
+      <text x="50" y="180" font-family="Arial, sans-serif" font-size="16" fill="#86efac">92% confidence</text>
+    </g>
+
+    <g>
+      <circle cx="300" cy="85" r="36" fill="#fb7185" opacity="0.7"/>
+      <circle cx="300" cy="80" r="18" fill="#f43f5e" opacity="0.9"/>
+      <path d="M 260 103 Q 300 130 340 103" fill="#fecdd3" opacity="0.9"/>
+      <text x="252" y="155" font-family="Arial, sans-serif" font-size="22" fill="#f8fafc">Rose</text>
+      <text x="245" y="180" font-family="Arial, sans-serif" font-size="16" fill="#86efac">89% confidence</text>
+    </g>
+
+    <g>
+      <circle cx="510" cy="85" r="42" fill="#38bdf8" opacity="0.8"/>
+      <circle cx="510" cy="80" r="28" fill="#0ea5e9" opacity="0.9"/>
+      <path d="M 470 103 C 500 140, 520 140, 550 103" fill="#e0f2fe" opacity="0.9"/>
+      <text x="471" y="155" font-family="Arial, sans-serif" font-size="22" fill="#f8fafc">Tulip</text>
+      <text x="468" y="180" font-family="Arial, sans-serif" font-size="16" fill="#86efac">91% confidence</text>
+    </g>
+
+    <g>
+      <circle cx="720" cy="85" r="40" fill="#a78bfa" opacity="0.7"/>
+      <circle cx="720" cy="82" r="18" fill="#8b5cf6" opacity="0.9"/>
+      <path d="M 690 110 Q 720 140 750 110" fill="#ddd6fe" opacity="0.9"/>
+      <text x="664" y="155" font-family="Arial, sans-serif" font-size="22" fill="#f8fafc">Sunflower</text>
+      <text x="682" y="180" font-family="Arial, sans-serif" font-size="16" fill="#86efac">94% confidence</text>
+    </g>
+  </g>
+</svg>

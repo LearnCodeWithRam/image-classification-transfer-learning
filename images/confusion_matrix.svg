@@ -1,0 +1,87 @@
+<svg width="900" height="420" viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="420" fill="#0f172a"/>
+  <text x="80" y="52" font-family="Arial, sans-serif" font-size="26" fill="#e2e8f0">Confusion Matrix</text>
+
+  <g transform="translate(120,90)">
+    <g fill="#10b981" font-size="14" font-family="Arial, sans-serif">
+      <text x="0" y="-12">Daisy</text>
+      <text x="90" y="-12">Dandelion</text>
+      <text x="200" y="-12">Rose</text>
+      <text x="300" y="-12">Sunflower</text>
+      <text x="420" y="-12">Tulip</text>
+    </g>
+    <g fill="#e2e8f0" font-size="14" font-family="Arial, sans-serif">
+      <text x="-60" y="30">Daisy</text>
+      <text x="-70" y="120">Dandelion</text>
+      <text x="-48" y="210">Rose</text>
+      <text x="-60" y="300">Sunflower</text>
+      <text x="-38" y="390">Tulip</text>
+    </g>
+
+    <g>
+      <g fill="#1e293b" stroke="#334155" stroke-width="1">
+        <rect x="0" y="0" width="80" height="80"/>
+        <rect x="90" y="0" width="80" height="80"/>
+        <rect x="180" y="0" width="80" height="80"/>
+        <rect x="270" y="0" width="80" height="80"/>
+        <rect x="360" y="0" width="80" height="80"/>
+
+        <rect x="0" y="90" width="80" height="80"/>
+        <rect x="90" y="90" width="80" height="80"/>
+        <rect x="180" y="90" width="80" height="80"/>
+        <rect x="270" y="90" width="80" height="80"/>
+        <rect x="360" y="90" width="80" height="80"/>
+
+        <rect x="0" y="180" width="80" height="80"/>
+        <rect x="90" y="180" width="80" height="80"/>
+        <rect x="180" y="180" width="80" height="80"/>
+        <rect x="270" y="180" width="80" height="80"/>
+        <rect x="360" y="180" width="80" height="80"/>
+
+        <rect x="0" y="270" width="80" height="80"/>
+        <rect x="90" y="270" width="80" height="80"/>
+        <rect x="180" y="270" width="80" height="80"/>
+        <rect x="270" y="270" width="80" height="80"/>
+        <rect x="360" y="270" width="80" height="80"/>
+
+        <rect x="0" y="360" width="80" height="80"/>
+        <rect x="90" y="360" width="80" height="80"/>
+        <rect x="180" y="360" width="80" height="80"/>
+        <rect x="270" y="360" width="80" height="80"/>
+        <rect x="360" y="360" width="80" height="80"/>
+      </g>
+
+      <g font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#f8fafc">
+        <text x="24" y="48">18</text>
+        <text x="115" y="48">2</text>
+        <text x="205" y="48">0</text>
+        <text x="295" y="48">1</text>
+        <text x="385" y="48">0</text>
+
+        <text x="24" y="138">1</text>
+        <text x="115" y="138">17</text>
+        <text x="205" y="138">1</text>
+        <text x="295" y="138">1</text>
+        <text x="385" y="138">0</text>
+
+        <text x="24" y="228">0</text>
+        <text x="115" y="228">2</text>
+        <text x="205" y="228">19</text>
+        <text x="295" y="228">0</text>
+        <text x="385" y="228">1</text>
+
+        <text x="24" y="318">1</text>
+        <text x="115" y="318">0</text>
+        <text x="205" y="318">1</text>
+        <text x="295" y="318">17</text>
+        <text x="385" y="318">2</text>
+
+        <text x="24" y="408">0</text>
+        <text x="115" y="408">1</text>
+        <text x="205" y="408">0</text>
+        <text x="295" y="408">2</text>
+        <text x="385" y="408">18</text>
+      </g>
+    </g>
+  </g>
+</svg>

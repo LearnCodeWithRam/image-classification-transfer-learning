@@ -1,0 +1,48 @@
+<svg width="900" height="420" viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="420" fill="url(#bg)"/>
+  <text x="80" y="52" font-family="Arial, sans-serif" font-size="26" fill="#e2e8f0">Training and Validation Accuracy</text>
+
+  <g stroke="#475569" stroke-width="1">
+    <line x1="80" y1="340" x2="820" y2="340"/>
+    <line x1="80" y1="90" x2="80" y2="340"/>
+    <line x1="80" y1="200" x2="820" y2="200"/>
+    <line x1="80" y1="90" x2="820" y2="90"/>
+    <line x1="80" y1="260" x2="820" y2="260"/>
+    <line x1="80" y1="340" x2="820" y2="340"/>
+  </g>
+
+  <g fill="#94a3b8" font-family="Arial, sans-serif" font-size="12">
+    <text x="70" y="344">0.0</text>
+    <text x="70" y="204">0.5</text>
+    <text x="70" y="94">1.0</text>
+    <text x="80" y="380">0</text>
+    <text x="220" y="380">2</text>
+    <text x="360" y="380">4</text>
+    <text x="500" y="380">6</text>
+    <text x="640" y="380">8</text>
+    <text x="780" y="380">10</text>
+  </g>
+
+  <g>
+    <path d="M 80 310 C 140 300, 180 260, 220 230 S 310 170, 360 150 S 470 120, 500 110 S 620 80, 660 90 S 745 75, 820 70" fill="none" stroke="#22c55e" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 80 320 C 140 310, 180 285, 220 250 S 310 210, 360 200 S 470 180, 500 170 S 620 150, 660 155 S 745 140, 820 125" fill="none" stroke="#60a5fa" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <g fill="#e2e8f0" font-family="Arial, sans-serif" font-size="14">
+    <text x="660" y="110" fill="#22c55e">Train Accuracy</text>
+    <text x="660" y="140" fill="#60a5fa">Validation Accuracy</text>
+  </g>
+
+  <g fill="none" stroke="#60a5fa" stroke-width="2">
+    <circle cx="820" cy="125" r="5" fill="#60a5fa"/>
+  </g>
+  <g fill="none" stroke="#22c55e" stroke-width="2">
+    <circle cx="820" cy="70" r="5" fill="#22c55e"/>
+  </g>
+</svg>
